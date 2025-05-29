@@ -1,171 +1,226 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-  <!-- Etiquetas Metas -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sitio web servicios jardinería LBit Garden">
-    <meta name="bots" content="index, follow">
-    <title>LBit Garden</title>
-    <!-- Favicon -->
-     <link rel="shortcut icon" href="images/LogoPractica.JPG" type="image/x-icon">
-    <!-- IMPORTACIÓN DE LIBRERÍAS -->
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/a9890f8bd0.js" crossorigin="anonymous"></script>
-    <!-- Estilos CSS -->
-     <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/logo-LBitFit.ico" type="image/x-icon">
+  <!--Estilos CSS-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- IMPORTACIÓN DE LIBRERÍAS -->
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!--FontAwesome-->
+  <script src="https://kit.fontawesome.com/a9890f8bd0.js" crossorigin="anonymous"></script>
+  <!--JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Scripts -->
+  <script src="js/index.js"></script>
+  <title>Inicio</title>
 </head>
+
 <body>
-  <!-- Cabecera (logo y menú de navegación) -->
-  <header id="inicio">
-    <div class="headerlogo">
-        <a href="index.html" title="jardineros LBit Garden"><img src="images/LogoPractica.JPG" alt="Logo" title="jardineros LBit Garden"></a>
-    </div>
-    <nav>
-      <ul class="navega">
-          <li><a href="index.html"              class="inicio text-success">Inicio</a></li>
-          <li><a href="views/productos.html"    class="servicios text-success">Servicios</a></li>
-          <li><a href="views/presupuesto.html"  class="presupuesto text-success">Presupuesto</a></li>
-          <li><a href="views/contacto.html"     class="contacto text-success">Contacto</a></li>
-      </ul>
-      <!-- Botón y barra de búsqueda dentro del menú -->
-      <form class="d-flex bottom-search" role="search">
-          <input class="form-control me-2 input-search" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
-    </nav>  
-  </header>
-    <!-- Cuerpo (texto y carrousel) -->
-    <main>
-      <!-- Imagen destacada -->
-        <section class="cuerpoimagenprincipal">
-            <div class="cuerposlogan">
-                <h2>Tus jardines en nuestras manos</h2>
-                <h4>Cuidado y mantenimiento de jardines</h4>
-            </div>
-        </section>
-        <!-- Texto descriptivo -->
-         <div class="cuerpodescripcionsitio0">
-          <p>Bienvenido a nuestro sitio web dedicado a la jardinería profesional. Aquí descubrirás todo sobre la labor de un jardinero y las múltiples ventajas de contratar nuestros servicios.</p>
-         </div>
-        <!-- Texto descriptivo con lista -->
-        <section class="cuerpodescripcionsitio1">
-            <h2>¿Qué hace un jardinero?</h2>
-            <p>Un jardinero es un experto en el cuidado y mantenimiento de espacios verdes. Su labor incluye:</p>
-            <ul>
-                <li><strong>Diseño de Jardines:</strong> Creación de paisajes estéticamente agradables y funcionales, adaptados a las necesidades del cliente.</li>
-                <li><strong>Mantenimiento de Plantas:</strong> Cuidado de flores, arbustos y árboles, asegurando su salud y crecimiento óptimo.</li>
-                <li><strong>Corte de Césped:</strong> Mantenimiento regular del césped para que luzca siempre verde y salud</li>
-                <li><strong>Control de Plagas:</strong> Identificación y tratamiento de plagas y enfermedades que pueden afectar a las plantas.</li>
-                <li><strong>Instalación de Sistemas de Riego:</strong> Implementación de soluciones eficientes para el riego de jardines y plantas.</li>
-            </ul>
-        </section>
-        <!-- Carrousel con Bootstrap -->
-        <section id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/graw.webp" class="d-block w-100" alt="Corte de Césped" width="640px" height="640px">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Corte de Césped</h5>
-                  <p>¡Dale a tu jardín el cuidado que merece! Disfruta de un césped sano y bien cuidado.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/riego_agua.webp" class="d-block w-100" alt="Instalación de Sistemas de Riego" width="640px" height="427px">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Instalación de Sistemas de Riego</h5>
-                  <p>¡Optimiza el riego de tu jardín! Ofrecemos instalación de sistemas de riego eficientes.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/pool_swing.webp" class="d-block w-100" alt="Mantenimiento y limpieza de piscinas" width="640px" height="427px">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Mantenimiento y limpieza de piscinas</h5>
-                  <p>¡Disfruta de tu piscina todo el año! Agua cristalina y saludable.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </section>
-          <!-- Texto descriptivo con lista -->
-          <div class="cuerpodescripcion2">
-            <h2>Ventajas de contratar un jardinero</h2>
-            <ol>
-                <li><strong>Experiencia y Conocimiento:</strong> Los jardineros profesionales tienen la formación y experiencia necesarias para cuidar adecuadamente de tus plantas.</li>
-                <li><strong>Ahorro de Tiempo:</strong> Delegar el mantenimiento de tu jardín te permite disfrutar de tu tiempo libre sin preocupaciones.</li>
-                <li><strong>Mejor Estética:</strong> Un jardinero puede transformar tu espacio exterior, aumentando su belleza y valor.</li>
-                <li><strong>Salud de las Plantas:</strong> n cuidado adecuado asegura que tus plantas crezcan sanas y fuertes, lo que prolonga su vida.</li>
-                <li><strong>Soluciones Personalizadas:</strong> Soluciones Personalizadas:</li>
-            </ol>
-          </div>
-          <div class="cuerpodescripcion3">
-            <div class="cuerpodescripcion3descript">
-                <h2>¿Quiénes Somos?</h2>
-                <p>Somos una empresa de jardinería ubicada en la Comunidad de Madrid. <br>
-                    Realizamos todo tipo de trabajos de jardinería y mantenimiento integral para viviendas particulares, empresas, urbanizaciones, constructoras y promotoras.
-                </p>
-            </div>   
-            <!-- Texto descriptivo con imagen -->
-            <div class="cuerpodescripcion3img">
-                <img src="images/jardinero.webp" alt="Jardineros LBit" width="640px" height="427px">
-            </div> 
-          </div>
-          <!-- Imagen ir hacía arriba -->
-          <div class="cuerpogotoup">
-            <a href="#inicio"><img src="images/flecha.png" alt="flecha jardinería" width="512px" height="512px"></a>
-          </div>
-    </main>
-    <!-- Pie sitio web -->
-    <footer class="bg-success text-white">
-        <div class="footerlogo">
-            <a href="" title="jardineros LBit Garden"><img src="images/LogoPractica.JPG" alt="Logo" title="jardineros LBit Garden"></a>
+  <header>
+    <!-- Cabecera (logo y menú de navegación) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/Logo-LBitFit.webp" alt="Logo LBitFit IT" width="120" height="75">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/presupuesto.html" tabindex="-1">Presupuesto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <!-- Botón y barra de búsqueda dentro del menú -->
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+          </form>
         </div>
-        <!-- Dirección y contacto de la empresa -->
-        <div class="footerdatoscontacto">
-            <p>Plaza de Azucena, 1</p>
-            <p>Madrid - Leganés</p>
-            <p>624376029</p>
+      </div>
+    </nav>
+  </header>
+  <!--Main (cuerpo de la página)-->
+  <main>
+    <div class="bloque-presentacion">
+      <div class="presentacion-text">
+        <h2>Somos auténticos profesionales</h2>
+        <p>Somos un equipo de auténticos profesionales apasionados por la tecnología y el desarrollo de soluciones
+          informáticas a la medida de nuestros clientes.
+          Nos enorgullece ofrecer un amplio rango de servicios, desde el desarrollo de software y la implementación de
+          sistemas hasta consultoría en ciberseguridad
+          y soporte técnico.</p>
+        <p>Con años de experiencia en el sector, nuestro objetivo es ayudar a nuestros clientes a alcanzar su máximo
+          potencial mediante la innovación y la eficacia.
+          Valoramos cada proyecto como una oportunidad de hacer una diferencia real y estamos aquí para guiarte en cada
+          paso del camino.</p>
+      </div>
+      <div class="presentacion-img">
+        <div class="presentacion-img-int">
+          <img src="./images/technology-4816658_1280.webp" alt="tecnología punta">
+        </div>
+      </div>
+    </div>
+    <div class="bloque-noticias">
+      <div class="noticias-encabezado">
+        <h2>¿Por qué LBitFit IT?</h2>
+        <h5>Tu proyecto en buenas manos con nosotros. Descubre todos nuestros servicios</h5>
+      </div>
+      <div class="noticias-json">
+
+      </div>
+    </div>
+    <div class="bloque-boton">
+      <button class="btn btn-primary" type="submit">Ver nuestros servicios</button>
+    </div>
+    <!--Bloque Portfolio-->
+    <div class="bloque-portfolio">
+      <div class="portfolio-encabezado">
+        <h2>Proyectos realizados</h2>
+        <h5>Nuestro Portfolio. Visite los trabajos realizados por el equipo de <a href="#" target="_blank"
+            class="encabezado-link">LBitFit IT</a>.</h5>
+      </div>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <a href="https://loredetalles.es/" target="_blank"><img src="images/portfolio/logo.webp" alt="Lore Detalles"
+                class="img-portfolio"></a>
+          </div>
+          <div class="col">
+            <a href="https://piscinarestaurante-costa-verde.negocio.site/" target="_blank"><img
+                src="images/portfolio/Logo1.webp" alt="piscinarestaurante Costa Verde" class="img-portfolio"></a>
+          </div>
+          <div class="col">
+            <a href="https://armel.es/" target="_blank"><img src="images/portfolio/LogoArmel.webp" alt="Talleres Arnel"
+                class="img-portfolio"></a>
+          </div>
+        </div>
+      </div>
+      <div class="bloque-marketing">
+        <div class="marketing-encabezado">
+          <h2>Tu agencia de Marketing</h2>
+          <h5>¿Qué es el marketing?</h5>
+        </div>
+        <div class="marketing-description">
+          <p>Plan de marketing es una herramienta sencilla. Se divide en tres fases:</p>
+          <ol>
+            <li>
+              Antes
+              <ul>
+                <li>Público objetivo</li>
+                <li>Mensaje público objetivo</li>
+                <li>Medios que usar para nuestro público objetivo</li>
+              </ul>
+            </li>
+            <li>
+              Durante
+              <ul>
+                <li>Sistema de captación para clientes potenciales</li>
+                <li>Sistema de nutrición de clientes</li>
+                <li>Estrategia de conversión de ventas</li>
+              </ul>
+            </li>
+            <li>
+              Después
+              <ul>
+                <li>Brindar experiencia</li>
+                <li>Incrementar el valor de los clientes</li>
+                <li>Estimular referencias</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="signupFrm">
+        <div class="bloque-contacto">
+          <div class="contacto-encabezado">
+            <h2>Póngase en contacto con nosotros</h2>
+          </div>
+
+          <div class="contacto-form">
+            <form method="post" name="form-contact">
+              <div class="nombre">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Escriba aquí su nombre" class="input-name"><span
+                  id="err-nom"></span>
+              </div>
+              <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" name="emai1" id="email" placeholder="Escriba aquí su correo electrónico"
+                  class="input-email"><span id="err-ema"></span>
+              </div>
+              <div class="area">
+                <label for="area">Deja tu comentario:</label><br>
+                <textarea name="area" id="area" class="input-area" cols="35" rows="5"></textarea><span
+                  id="err-txtarea"></span>
+              </div>
+              <button id="btn-contact" type="button" class="boton-index">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Imagen ir hacía arriba -->
+      <div class="bloque-flechaarriba">
+        <a href="#"><span class="flecha-arriba">🠕</span></a>
+      </div>
+    </div>
+  </main>
+  <!-- Pie sitio web -->
+  <footer>
+    <!--Logo del sitio-->
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="footer-container-logo">
+            <img src="images/logo/Logo-LBitFit.webp" alt="Logo LBitFit IT" width="120" height="75">
+            <p>Todo lo que necesitas para estar conectado.</p>
+          </div>
+          <!-- Redes sociales -->
+          <div class="footer-container-rrss">
+            <a href="https://www.linkedin.com/"><img src="images/rrss/LinkedIn.jpg" alt=""></a>
+            <a href="https://www.tiktok.com/es/"><img src="images/rrss/Facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/?hl=es"><img src="images/rrss/instagram-logo.jpg" alt=""></a>
+          </div>
         </div>
         <!-- Política de seguridad y Condiciones de uso (menú) -->
-        <div class="footerpoliticas">
+        <div class="col">
+          <div class="footer-container-politicas">
             <h5>Condiciones y políticas</h5>
-            <a href="/views/others/politicaSeguridad.html">Política de seguridad</a>
-            <a href="/views/others/condicionesUso.html">Condiciones de uso</a>
+            <ul>
+              <li><a href="/views/others/politicaSeguridad.html">Política de seguridad</a></li>
+              <li><a href="/views/others/condicionesUso.html">Condiciones de uso</a></li>
+              <li><a href="#">política de cookies</a></li>
+            </ul>
+          </div>
         </div>
-        <!-- Enlaces para conocer más de la empresa (menú) -->
-        <div class="footernosotros">
-            <h5>Sobre nosotros</h5>
-            <a href="/views/others/aboutus.html">¿Quienes somos?</a>
-            <a href="/views/others/workus.html">Trabaja con nosotros</a>
+        <!-- Dirección y contacto de la empresa -->
+        <div class="col">
+          <div class="footer-container-datoscontacto">
+            <h5 class="datoscontacto-horario">Horario</h5>
+            <p>Plaza de Azucena, 1. Madrid - Leganés</p>
+            <p>Teléfono: 624376029</p>
+            <p>Horario: Lunes – Viernes: 9:30 – 19:30</p>
+          </div>
         </div>
-        <!-- Redes sociales -->
-        <div class="footerrrss">
-          <h5>Redes Sociales</h5>
-          <a href="https://www.linkedin.com/"><i class="fa-solid fa-thumbs-up"></i></a>
-          <a href="https://www.tiktok.com/es/"><i class="fa-solid fa-users"></i></a>
-          <a href="https://www.instagram.com/?hl=es"><i class="fa-solid fa-message"></i></a>
       </div>
-    </footer>
+    </div>
+  </footer>
 </body>
+
 </html>
